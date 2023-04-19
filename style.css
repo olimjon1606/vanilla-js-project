@@ -5,8 +5,8 @@
 }
 
 body {
-    background-image: linear-gradient(120deg, #f6d365, #9bff5c);
-    font-family: "Poppins", san-serif;
+    background-image: linear-gradient(120deg, #f6d365, #b0d138);
+    font-family: Consolas, san-serif;
     min-height: 100vh;
     color: #fff;
 }
@@ -14,10 +14,12 @@ body {
 header {
     font-size: 1.5rem;
 }
-
+form {
+    min-width:400px;
+}
 header,
 form {
-    min-height: 20vh;
+    min-height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +28,7 @@ form {
 form input,
 form button {
     padding: .5rem;
-    font-size: 2rem;
+    font-size: 1.4rem;
     border: none;
     background-color: #fff;
 
@@ -36,6 +38,8 @@ form input {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     padding-left: 1.2rem;
+    min-width: 200px;
+    color: #666;
 }
 
 form button {
@@ -64,7 +68,7 @@ form {
 }
 
 .todo-list {
-    min-width: 30%;
+    min-width: 300px;
     list-style: none;
 }
 
@@ -132,6 +136,7 @@ select{
     appearance: none;
     outline: none;
     border: none;
+    font-size: 1rem;
 }
 .select{
     margin: 1rem;
@@ -140,9 +145,9 @@ select{
 }
 select{
     color: #9bff5c;
-    width: 10rem;
+    min-width: 10rem;
     cursor: pointer;
-    padding: 1rem;
+    padding: .8rem;
 }
 .select::after{
     content: "\25BC";
