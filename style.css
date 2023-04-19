@@ -6,7 +6,8 @@
 body{
     background-image: linear-gradient(120deg, #f6d365, #9bff5c);
     font-family:"Poppins",san-serif;
-    min-height: 100vh;    
+    min-height: 100vh;
+    color: #fff;
 }
 header{
     font-size: 1.5rem;
